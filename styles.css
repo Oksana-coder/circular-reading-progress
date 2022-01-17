@@ -1,6 +1,7 @@
 body {
-    width: 320px;
-    border: solid 1px #e0e0e0;
+    width: 100%;
+    /*width: 320px;*/
+    /*border: solid 1px #e0e0e0;*/
     margin: 0 auto;
     padding-top: 50px;
     font-family: "Open Sans", sans-serif;
@@ -11,17 +12,17 @@ body {
     overscroll-behavior-y: none;
 }
 
-@media only screen and (min-width: 375px) {
-    body {
-        width: 375px;
-    }
-}
+/*@media only screen and (min-width: 375px) {*/
+/*    body {*/
+/*        width: 375px;*/
+/*    }*/
+/*}*/
 
-@media only screen and (min-width: 425px) {
-    body {
-        width: 425px;
-    }
-}
+/*@media only screen and (min-width: 425px) {*/
+/*    body {*/
+/*        width: 425px;*/
+/*    }*/
+/*}*/
 
 /*@media only screen and (min-width: 768px) {*/
 /*    body {*/

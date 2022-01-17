@@ -3,7 +3,8 @@ const valueContainer = document.querySelector(".value-container");
 const article = document.querySelector("article");
 
 const articleBeginning = article.getBoundingClientRect().top + window.scrollY;
-const articleEnd = article.getBoundingClientRect().height - document.documentElement.clientHeight + (2 * articleBeginning);
+// const articleEnd = article.getBoundingClientRect().height - document.documentElement.clientHeight + (2 * articleBeginning);
+const articleEnd = article.getBoundingClientRect().height;
 
 const animateCircularProgressBar = () => {
     if (window.scrollY >= articleBeginning && window.scrollY <= articleEnd) {

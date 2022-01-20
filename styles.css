@@ -416,9 +416,9 @@ div#comments div.comment div.comment_text span {
             rgba(213, 0, 6, 0.7) var(--progress, 0),
             rgba(213, 0, 6, 0.2) var(--progress, 0)
     );
-    display: grid;
+    display: none;
     place-items: center;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .circular-progress:before {

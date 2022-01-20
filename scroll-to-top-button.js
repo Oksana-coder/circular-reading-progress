@@ -2,8 +2,8 @@ const scrollToTopButton = document.querySelector("#MEW_scroll_to_top_wrapper");
 const circularProgressBar = document.querySelector(".circular-progress");
 const article = document.querySelector("article");
 
-const articleBeginning = article.getBoundingClientRect().top + window.scrollY;
-const articleEnd = article.getBoundingClientRect().height - document.documentElement.clientHeight + (2 * articleBeginning);
+// const articleBeginning = article.getBoundingClientRect().top + window.scrollY;
+// const articleEnd = article.getBoundingClientRect().height - document.documentElement.clientHeight + (2 * articleBeginning);
 
 let lastScrollTop = 0;
 
@@ -13,11 +13,11 @@ const showScrollToTopButton = () => {
     if (currPosition > lastScrollTop) {
         scrollToTopButton.style.display = "none";
         circularProgressBar.style.opacity = "1";
-        if (window.scrollY >= articleBeginning && window.scrollY <= articleEnd) {
-            circularProgressBar.style.opacity = "1";
-        } else {
-            circularProgressBar.style.opacity = "0";
-        }
+        // if (window.scrollY >= articleBeginning && window.scrollY <= articleEnd) {
+        //     circularProgressBar.style.opacity = "1";
+        // } else {
+        //     circularProgressBar.style.opacity = "0";
+        // }
     } else {
         scrollToTopButton.style.display = "block";
         circularProgressBar.style.opacity = "0";

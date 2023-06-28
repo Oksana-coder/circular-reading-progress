@@ -25,7 +25,7 @@ const valueContainer = document.querySelector(".value-container");
 // window.addEventListener("scroll", animateCircularProgressBar);
 
 const firstElement = document.querySelector('.overhead');
-const lastElement = document.querySelector('.aoc-wrapper');
+const lastElement = document.querySelector('.last-element');
 
 
 const animateCircularProgressBar = () => {
